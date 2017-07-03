@@ -6,7 +6,7 @@ class NoteSerializer(serializers.ModelSerializer):
      
     class Meta:
         model = Note
-        fields = ('note_content', )
+        fields = '__all__'
 
     def validate_note_content(self, value):
         if len(value) > 140:

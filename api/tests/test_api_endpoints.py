@@ -11,7 +11,7 @@ class TestApiEndpoints(APITestCase):
     def setUp(self):
         self.notes_endpoint = reverse('note-list')
         create_initial_note = self.client.post(self.notes_endpoint, {'note_content': 'initial note'})
-        self.initial_content = Note.objects.get(id=1)
+        self.initial_content = Note.objects.first()
 
         self.initial_note_endpoint = reverse('note-detail', kwargs={'pk': self.initial_content.id})
 
