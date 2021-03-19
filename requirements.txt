@@ -13,7 +13,7 @@ greenlet==0.4.12
 idna==2.5
 ipaddress==1.0.18
 itsdangerous==0.24
-Jinja2==2.9.6
+Jinja2==2.11.3
 locustio==0.7.5
 MarkupSafe==1.0
 msgpack-python==0.4.8
