@@ -3,7 +3,7 @@ chardet==3.0.4
 click==6.7
 coverage==4.4.1
 dj-database-url==0.4.2
-Django==1.11.3
+Django==2.2.24
 django-nose==1.4.4
 djangorestframework==3.6.3
 Faker==0.7.17
